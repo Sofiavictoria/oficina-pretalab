@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;  /*cor de fundo */
+}
+
+.meuh1{
+    color: darkviolet;
+    text-align: center; /*posição do texto*/
+}
+
+#meuh1unico{
+    color:black;
+}
+
+#corpo{
+    background-color: black;
+    color:darkgreen;
+    margin: 90px auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: yellow solid;
+    width: 50%;
+    height: 80px;
+    /*border: yellow 8px solid; */
+    border-style: dotted;
+}
+
+.sessao_conteudo{
+    text-align: center;
+    height: 70px;
+    background-color: white;
+    
+}
+
+p{
+    font-family: 'Courier New';
+    font-size: larger;
+    font-weight: 65px;
+    line-height: 35px; /*distância entre linhas*/
+}
+
+/*
+padding: define o espaçamento nos 4 lados;
+padding-top: define o espaçamento superior;
+padding-right: define o espaçamento à direita;
+padding-bottom: define o espaçamento inferior;
+padding-left: define o espaçamento à esquerda; 
+margin: define a margem nos 4 lados do elemento;
+margin-top: define a margem superior;
+margin-right: define a margem  à direita;
+margin-bottom: define a margem  inferior;
+margin-left: define a margem à esquerda; 
+*/

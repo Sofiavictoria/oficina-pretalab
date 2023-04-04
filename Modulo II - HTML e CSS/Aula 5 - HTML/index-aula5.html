@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- cabeçalho que o usuario nao ve -->
+<head>
+    <meta charset="UTF-8">
+    <title>Almoço de domingo</title>
+    <link rel="stylesheet" href="receitas.css" />
+    <!-- com essa tag script conseguimos puxar icones da biblioteca da internet -->
+    
+</head>
+<body>
+    <!-- Div é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos -->
+    <div class="container">
+        <!-- header é utilizado para representar o cabeçalho de um documento ou seção declarado no HTML -->
+        <header class="principal">
+            <h1> Receitinhas para almoco de domingo</h1>
+            <!--figure é uma marcação de uso específico para a inserção de uma figura -->
+            <figure>
+                <div id="bg">
+                    <img src="./img/carne.jpg" alt="imagem de almoço de domingo" width="100%"
+                    height="300px" >
+                </div>
+                <figcaption class="legend"> Receitas para um almoço de domingo</figcaption>
+            </figure>
+        </header>
+
+         <!-- Main especifica o conteúdo principal e, consequentemente, de maior relevância dentro da página -->
+        <main class="content">
+            <!-- criando uma tabela -->
+            <table>
+                <!-- cabeçalho da nossa tabela -->
+                <thead>
+                     <!-- tags de titulos da nossa tabela -->
+                    <th>Picanha com manteiga</th>
+                    <th>Bolo de chocolate</th>
+                </thead>
+
+                <!-- corpo da nossa tabela -->
+                <tbody>
+                     <!-- tr = row(em portugues significa linha) -->
+                    <tr>
+                         <!-- td = colunas -->
+                        <td>
+                            <a href="picanha.html" target="_blank">
+                                <img src="./img/picanha.jpg" alt="imagem de uma picanha" width="270" height="165" >
+
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="boloChocolate.html" target="_blank">
+                                <img src="./img/bolo.png" alt="imagem de um bolo de chocolate" width="270" height="165" >
+
+                            </a>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+     <footer>
+        <a href="https://github.com/Sofiavictoria/OficinaPretaLab" target="_blank" id="mypage"> Feito por Sofia Victória</a>
+     </footer>
+    
+</body>
+</html>
