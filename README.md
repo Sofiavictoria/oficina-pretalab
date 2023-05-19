@@ -1,2 +1,2 @@
 # OficinaPretaLab
-Oficina/Curso que participei pretalab 
+Curso que participei pretalab, O poder do futuro 
